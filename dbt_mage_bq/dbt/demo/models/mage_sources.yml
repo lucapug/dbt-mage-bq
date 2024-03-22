@@ -1,0 +1,19 @@
+sources:
+- description: Dataframes Mage upstream blocks
+  loader: mage
+  name: mage_demo
+  schema: google_trends
+  tables:
+  - description: Dataframe for block `load_india_py` of the `dbt_pipeline` mage pipeline.
+    identifier: mage_dbt_pipeline_load_india_py
+    meta:
+      block_uuid: load_india_py
+      pipeline_uuid: dbt_pipeline
+    name: dbt_pipeline_load_india_py
+  - description: Dataframe for block `load_us_py` of the `dbt_pipeline` mage pipeline.
+    identifier: mage_dbt_pipeline_load_us_py
+    meta:
+      block_uuid: load_us_py
+      pipeline_uuid: dbt_pipeline
+    name: dbt_pipeline_load_us_py
+version: 2
